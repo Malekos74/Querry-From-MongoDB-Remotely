@@ -1,0 +1,18 @@
+# Helpful info
+
+## Connect to ENI1 remotely
+- Be connected to the Uni network (EduVPN)
+- Open powershell
+- ```ssh username@10.152.14.63```
+- Input password when prompted
+
+## Import a CSV file remotely:
+- ```scp /path/to/your/local/file.xlsx username@remote_server:/path/on/remote/server```
+- Input password if prompted
+
+## Import a file manually to a mongoDB instance
+- ```mongoimport --db <database_name> --collection <collection_name> --type csv --file /path/to/your/csvfile.csv --headerline```
+
+
+
+
